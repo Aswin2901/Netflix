@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Popins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:gray;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    
+}
+.nav-bar{
+    background-color: transparent;
+    margin-top: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.Netflix-logo{
+    width: 200px;
+}
+.language-button{
+    margin-left: 570px;
+    width: 130px;
+    height: 30px;
+    background-color:rgba(0, 0, 0, 0);
+    color: white;
+    padding: 4px 20px;
+    margin-right: 45px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(215, 231, 245);
+    border-radius: 5px;
+    font-weight: bold;
+}
+.down-icon{
+    width: 9px;
+    margin-left: 18px;
+}
+.signin-button{
+    background-color: rgb(207, 6, 6);
+    color: white;
+    height: 30px;
+    width: 90px;
+    padding: 4px 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+.center-body{
+    margin-top: 230px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    line-height: 80px;
+}
+.first-p{
+    font-size: 48px;
+    font-weight: 900;
+}
+.second-p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.third-p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.email-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+.email-icon{
+    background-color: rgba(0, 0, 0.2, 0.5);
+    align-items: center;
+    height: 40px;
+    width: 400px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(231, 211, 211);
+    border-radius: 6px;
+    padding-left: 10px;
+
+}
+.get-button{
+    background-color:rgb(207, 6, 6);
+    color: white;
+    width: 150px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 5px;
+}
+.header-2{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 220px;
+    margin-top: 170px;
+}
+.p1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.p2{
+    font-size: 18px;
+    font-weight: 400;
+}
+.tv-icon{
+    margin-top: 150px;
+   position: relative;
+
+}
+.header-3{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+.pic-1{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.H2-text{
+    margin-top: 150px;
+    padding: 60px;
+}
+.H2-p1{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.H2-p2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 80px;
+}
+.header-4{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+.pic-2{
+    width: 600px;
+    padding-right: 150px;
+    margin-top: 110px;
+}
+.H4-text{
+    margin-top: 130px;
+    padding-left: 190px;
+}
+.H4-p1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 80px;
+    
+}
+.H4-p2{
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+.header-5{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+.pic-3{
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+    padding-left: 130px;
+   
+}
+.H5-text{
+    padding-right: 210px;
+    padding-left: 40px;
+    margin-top: 140px;
+   
+}
+.H5-p1{
+    font-size: 45px;
+    font-weight: 900;
+   
+    
+}
+.H5-p2{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+.header-6{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+   padding: 120px;
+   padding-bottom: 0;
+
+}
+.heading-1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    padding: 34px;
+    background-color: rgb(58, 56, 56);
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.plus{
+    width: 36px;
+}
+.H6-last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+    margin-left: 50px;
+    padding: 20px;
+}
+.h6-p1{
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+    margin-left: 40px;
+}
+.h6-email-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+    border-color: greenyellow;
+
+}
+.h6-get-button{
+    background-color:rgb(207, 6, 6);
+    color: white;
+    width: 150px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 5px;
+    height: 40px;
+}
+.header-7{
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    padding-left: 150px;
+    padding-top: 40px;
+}
+.h7-grid{
+    display: grid;
+    grid-template-columns:350px 350px 350px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+.h7-language-button{
+    margin-left: 0;
+    height: 30px;
+    background-color:rgba(0, 0, 0, 0);
+    color: white;
+    padding: 4px 20px;
+    margin-right: 45px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(215, 231, 245);
+    border-radius: 5px;
+    font-weight: bold;
+}
+.h7-p2{
+    margin-top: 25px;
+    font-size: medium;
+    font-weight: 200;
+}
